@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MeetApi.MeetApiEntities/1.0.0": {
+        "dependencies": {
+          "MeetApi.MeetApiInterface": "1.0.0"
+        },
+        "runtime": {
+          "MeetApi.MeetApiEntities.dll": {}
+        }
+      },
+      "MeetApi.MeetApiInterface/1.0.0": {
+        "runtime": {
+          "MeetApi.MeetApiInterface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MeetApi.MeetApiEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeetApi.MeetApiInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

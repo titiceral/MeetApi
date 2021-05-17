@@ -1,0 +1,13 @@
+D:\dev\MeetApi\MeetApiSpooler\obj\Debug\netcoreapp3.0\MeetApiSpooler.csprojAssemblyReference.cache
+D:\dev\MeetApi\MeetApiSpooler\obj\Debug\netcoreapp3.0\MeetApiSpooler.AssemblyInfoInputs.cache
+D:\dev\MeetApi\MeetApiSpooler\obj\Debug\netcoreapp3.0\MeetApiSpooler.AssemblyInfo.cs
+D:\dev\MeetApi\MeetApiSpooler\bin\Debug\netcoreapp3.0\MeetApiSpooler.deps.json
+D:\dev\MeetApi\MeetApiSpooler\bin\Debug\netcoreapp3.0\MeetApiSpooler.dll
+D:\dev\MeetApi\MeetApiSpooler\bin\Debug\netcoreapp3.0\MeetApiSpooler.pdb
+D:\dev\MeetApi\MeetApiSpooler\bin\Debug\netcoreapp3.0\MeetApi.MeetApiEntities.dll
+D:\dev\MeetApi\MeetApiSpooler\bin\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.dll
+D:\dev\MeetApi\MeetApiSpooler\bin\Debug\netcoreapp3.0\MeetApi.MeetApiEntities.pdb
+D:\dev\MeetApi\MeetApiSpooler\bin\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.pdb
+D:\dev\MeetApi\MeetApiSpooler\obj\Debug\netcoreapp3.0\MeetApiSpooler.csproj.CopyComplete
+D:\dev\MeetApi\MeetApiSpooler\obj\Debug\netcoreapp3.0\MeetApiSpooler.dll
+D:\dev\MeetApi\MeetApiSpooler\obj\Debug\netcoreapp3.0\MeetApiSpooler.pdb

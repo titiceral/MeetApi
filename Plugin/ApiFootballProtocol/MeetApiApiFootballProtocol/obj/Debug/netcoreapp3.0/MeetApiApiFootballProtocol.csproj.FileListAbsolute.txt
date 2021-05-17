@@ -1,0 +1,13 @@
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\obj\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.csprojAssemblyReference.cache
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\obj\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.AssemblyInfoInputs.cache
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\obj\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.AssemblyInfo.cs
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\bin\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.deps.json
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\bin\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.dll
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\bin\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.pdb
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\bin\Debug\netcoreapp3.0\MeetApi.MeetApiEntities.dll
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\bin\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.dll
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\bin\Debug\netcoreapp3.0\MeetApi.MeetApiEntities.pdb
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\bin\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.pdb
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\obj\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.csproj.CopyComplete
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\obj\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.dll
+D:\dev\MeetApi\Plugin\ApiFootballProtocol\MeetApiApiFootballProtocol\obj\Debug\netcoreapp3.0\MeetApiApiFootballProtocol.pdb

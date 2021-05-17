@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dev\\MeetApi\\Test\\MeetApiUnitTest\\MeetApiUnitTest.csproj": {}
+  },
+  "projects": {
+    "D:\\dev\\MeetApi\\library\\MeetApiEntities\\MeetApiEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\MeetApi\\library\\MeetApiEntities\\MeetApiEntities.csproj",
+        "projectName": "MeetApi.MeetApiEntities",
+        "projectPath": "D:\\dev\\MeetApi\\library\\MeetApiEntities\\MeetApiEntities.csproj",
+        "packagesPath": "C:\\Users\\Titi\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\MeetApi\\library\\MeetApiEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Titi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\dev\\MeetApi\\library\\MeetApiInterface\\MeetApiInterface\\MeetApiInterface.csproj": {
+                "projectPath": "D:\\dev\\MeetApi\\library\\MeetApiInterface\\MeetApiInterface\\MeetApiInterface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\MeetApi\\library\\MeetApiInterface\\MeetApiInterface\\MeetApiInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\MeetApi\\library\\MeetApiInterface\\MeetApiInterface\\MeetApiInterface.csproj",
+        "projectName": "MeetApi.MeetApiInterface",
+        "projectPath": "D:\\dev\\MeetApi\\library\\MeetApiInterface\\MeetApiInterface\\MeetApiInterface.csproj",
+        "packagesPath": "C:\\Users\\Titi\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\MeetApi\\library\\MeetApiInterface\\MeetApiInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Titi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\MeetApi\\MeetApiSpooler\\MeetApiSpooler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\MeetApi\\MeetApiSpooler\\MeetApiSpooler.csproj",
+        "projectName": "MeetApiSpooler",
+        "projectPath": "D:\\dev\\MeetApi\\MeetApiSpooler\\MeetApiSpooler.csproj",
+        "packagesPath": "C:\\Users\\Titi\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\MeetApi\\MeetApiSpooler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Titi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\dev\\MeetApi\\library\\MeetApiEntities\\MeetApiEntities.csproj": {
+                "projectPath": "D:\\dev\\MeetApi\\library\\MeetApiEntities\\MeetApiEntities.csproj"
+              },
+              "D:\\dev\\MeetApi\\library\\MeetApiInterface\\MeetApiInterface\\MeetApiInterface.csproj": {
+                "projectPath": "D:\\dev\\MeetApi\\library\\MeetApiInterface\\MeetApiInterface\\MeetApiInterface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\MeetApi\\Test\\MeetApiUnitTest\\MeetApiUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\MeetApi\\Test\\MeetApiUnitTest\\MeetApiUnitTest.csproj",
+        "projectName": "MeetApiUnitTest",
+        "projectPath": "D:\\dev\\MeetApi\\Test\\MeetApiUnitTest\\MeetApiUnitTest.csproj",
+        "packagesPath": "C:\\Users\\Titi\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\MeetApi\\Test\\MeetApiUnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Titi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\dev\\MeetApi\\MeetApiSpooler\\MeetApiSpooler.csproj": {
+                "projectPath": "D:\\dev\\MeetApi\\MeetApiSpooler\\MeetApiSpooler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.94.2, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

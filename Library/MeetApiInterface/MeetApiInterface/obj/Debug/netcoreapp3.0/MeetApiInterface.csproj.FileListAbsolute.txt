@@ -1,0 +1,8 @@
+D:\dev\MeetApi\library\MeetApiInterface\MeetApiInterface\obj\Debug\netcoreapp3.0\MeetApiInterface.AssemblyInfoInputs.cache
+D:\dev\MeetApi\library\MeetApiInterface\MeetApiInterface\obj\Debug\netcoreapp3.0\MeetApiInterface.AssemblyInfo.cs
+D:\dev\MeetApi\library\MeetApiInterface\MeetApiInterface\bin\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.deps.json
+D:\dev\MeetApi\library\MeetApiInterface\MeetApiInterface\bin\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.dll
+D:\dev\MeetApi\library\MeetApiInterface\MeetApiInterface\bin\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.pdb
+D:\dev\MeetApi\library\MeetApiInterface\MeetApiInterface\obj\Debug\netcoreapp3.0\MeetApiInterface.csprojAssemblyReference.cache
+D:\dev\MeetApi\library\MeetApiInterface\MeetApiInterface\obj\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.dll
+D:\dev\MeetApi\library\MeetApiInterface\MeetApiInterface\obj\Debug\netcoreapp3.0\MeetApi.MeetApiInterface.pdb

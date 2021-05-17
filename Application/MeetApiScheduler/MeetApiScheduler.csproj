@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14937689-2F85-4E5E-8944-DDEFB345DD1A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MeetApiScheduler</RootNamespace>
+    <AssemblyName>MeetApScheduler</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Iesi.Collections.4.0.1.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\NHibernate.4.0.3.4000\lib\net40\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate.Caches.SysCache2, Version=4.0.0.4000, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\NHibernate.Caches.SysCache2.4.0.0.4000\lib\net40\NHibernate.Caches.SysCache2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MeetApiSchedulerService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CyclicOperationTimer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WebApps\Common\Common.csproj">
+      <Project>{F9FDA5CD-04CB-4522-B22A-CD4855E86EE7}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WebApps\Modules\Sandre\Sandre.csproj">
+      <Project>{15797f25-dc24-4852-8e88-7c7188b59a4f}</Project>
+      <Name>Sandre</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\DataAccess\Domain\Domain.csproj">
+      <Project>{90B669AE-0ADC-4900-A1B3-8F1F0178E157}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\DataAccess\Infrastructure\Infrastructure.csproj">
+      <Project>{4454D254-05F9-417F-B39D-FB31EEAFF601}</Project>
+      <Name>Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\DataContracts\Interfaces\CoreInterfaces\CoreInterfaces.csproj">
+      <Project>{281E5A24-2828-441C-92AA-486BBE2BD0F3}</Project>
+      <Name>CoreInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\MeetApiFactory\MeetApiFactory.csproj">
+      <Project>{e63086b5-cdc4-45a6-b01d-09c981ed3a1b}</Project>
+      <Name>MeetApiFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\Core\Application\Application.csproj">
+      <Project>{032AB7F4-85BB-4935-9414-0651ACCC4338}</Project>
+      <Name>Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\MeetApiInterface\MeetApiInterface.csproj">
+      <Project>{15350C83-4A2C-403A-86EF-7B11C861E2B3}</Project>
+      <Name>MeetApiInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\MeetApiSpooler\PCCOMAPISpooler.csproj">
+      <Project>{b2c07b6c-2f4d-4d07-bf5a-a88f13b4d54d}</Project>
+      <Name>PCCOMAPISpooler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

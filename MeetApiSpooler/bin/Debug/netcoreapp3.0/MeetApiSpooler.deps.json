@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MeetApiSpooler/1.0.0": {
+        "dependencies": {
+          "MeetApi.MeetApiEntities": "1.0.0",
+          "MeetApi.MeetApiInterface": "1.0.0"
+        },
+        "runtime": {
+          "MeetApiSpooler.dll": {}
+        }
+      },
+      "MeetApi.MeetApiEntities/1.0.0": {
+        "dependencies": {
+          "MeetApi.MeetApiInterface": "1.0.0"
+        },
+        "runtime": {
+          "MeetApi.MeetApiEntities.dll": {}
+        }
+      },
+      "MeetApi.MeetApiInterface/1.0.0": {
+        "runtime": {
+          "MeetApi.MeetApiInterface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MeetApiSpooler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeetApi.MeetApiEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeetApi.MeetApiInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>MeetApi.MeetApiEntities</RootNamespace>
+    <AssemblyName>MeetApi.MeetApiEntities</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeetApiInterface\MeetApiInterface\MeetApiInterface.csproj" />
+  </ItemGroup>
+
+</Project>
